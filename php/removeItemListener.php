@@ -1,11 +1,14 @@
 <?php
+//To start/resume session so we can store and use data from the previous session.
 session_start();
 require_once("databaseConnection.php");
 
+//
 if (!isset($_SESSION['username'])) {
     header("Location: ../mywenslijst.php");
 }
 
+//
 if(isset($_GET['itemId'])) {
     //Get username/password from form
     $itemId = $_GET['itemId'];
