@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa183c06-37f8-44a3-910f-9cd1080577c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywenslijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/mywenslijst.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +128,8 @@
       <workItem from="1585480102464" duration="11731000" />
       <workItem from="1585488293100" duration="3000" />
       <workItem from="1585488361684" duration="12000" />
-      <workItem from="1585553757074" duration="36000" />
+      <workItem from="1585553757074" duration="94000" />
+      <workItem from="1585554582035" duration="85000" />
     </task>
     <servers />
   </component>
@@ -152,6 +154,10 @@
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
     <state x="713" y="400" width="488" height="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1054@0.0.1920.1054" timestamp="1585480903686" />
+    <state x="532" y="60" width="850" height="802" key="CommitChangelistDialog2" timestamp="1585554717623">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="532" y="60" width="850" height="802" key="CommitChangelistDialog2/0.0.1920.924@0.0.1920.924" timestamp="1585554717623" />
     <state x="241" y="154" width="475" height="609" key="ExecutionTargetDialog" timestamp="1584010972386">
       <screen x="0" y="0" width="1920" height="924" />
     </state>
@@ -242,5 +248,9 @@
       <screen x="0" y="0" width="1920" height="924" />
     </state>
     <state x="1145" y="21" width="741" height="621" key="dock-window-1/0.0.1920.924@0.0.1920.924" timestamp="1585399444324" />
+    <state x="616" y="65" width="688" height="795" key="find.popup" timestamp="1585554642171">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="616" y="65" width="688" height="795" key="find.popup/0.0.1920.924@0.0.1920.924" timestamp="1585554642171" />
   </component>
 </project>

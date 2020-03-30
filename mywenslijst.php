@@ -78,7 +78,7 @@ $listgroupId = $_SESSION['groupid'];
             <br>
 
             <div class="alert alert-info" role="alert">
-                Jouw link = <input type="text" readonly value="<?php echo 'http://student.local/wenslijst.php?groupId=' . $_SESSION['groupid']; ?>">
+                Jouw link = <input type="text" readonly value="<?php echo 'http://happybrides.student.local/wenslijst.php?groupId=' . $_SESSION['groupid']; ?>">
             </div>
 
             <!-- De List van items -->
