@@ -1,7 +1,7 @@
 <?php
 require_once("databaseConnection.php");
 
-
+    //
 if(isset($_POST['submitItem'])) {
     //Get username/password from form
     $itemName = $_POST['itemName'];

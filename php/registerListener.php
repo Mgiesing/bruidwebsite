@@ -11,6 +11,7 @@ if (isset($_POST['registerFormSubmit'])) {
     //Check if user exists
     $check = userExists($username);
 
+    //Check amount of items and check if the user excists or not.
     if (isset($check) && count($check) > 1) {
         $_SESSION['error'] = "Deze gebruiker bestaat al.";
     } else {
@@ -19,9 +20,10 @@ if (isset($_POST['registerFormSubmit'])) {
 
 }
 
-
+// Create user Function
 function createUser($username, $password, $passwordVerify)
 {
+    // Username/Password has to be < 1 and password check if the same password got filled it.
     if (strlen($username) < 1) $error = "Ongeldige gebruikersnaam";
     else if (strlen($password) < 1) $error = "Ongeldig wachtwoord";
     else if (strlen($password) < 1) $error = "Ongeldig wachtwoord";

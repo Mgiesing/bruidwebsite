@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa183c06-37f8-44a3-910f-9cd1080577c4" name="Default Changelist" comment="">
+    <list default="true" id="aa183c06-37f8-44a3-910f-9cd1080577c4" name="Default Changelist" comment="Fixed mywenslijst link">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bruidwebsite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/additemListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/additemListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/databaseConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/databaseConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/loginListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/loginListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/registerListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/registerListener.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,32 +38,25 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mariadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mariadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mariadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="bruidswebsite: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mariadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="bruidswebsite: schema" type="ebfa3cd1:MariaImplModel$Schema" />
         <item name="users: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mariadb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bruidswebsite: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="wenslijst: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -97,7 +100,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -129,6 +137,9 @@
       <workItem from="1585488361684" duration="12000" />
       <workItem from="1585553757074" duration="94000" />
       <workItem from="1585554582035" duration="690000" />
+      <workItem from="1585561108308" duration="1406000" />
+      <workItem from="1585562829964" duration="129000" />
+      <workItem from="1585576721916" duration="1540000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed mywenslijst link">
       <created>1585554776439</created>
@@ -143,6 +154,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed mywenslijst link" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed mywenslijst link" />
@@ -152,11 +176,11 @@
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
     <state x="555" y="189" width="804" height="674" key="#SQL_Dialects/0.0.1920.1054@0.0.1920.1054" timestamp="1585482627375" />
-    <state x="555" y="166" width="804" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585399276114">
+    <state x="555" y="166" width="804" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585576741345">
       <screen x="0" y="0" width="1920" height="924" />
     </state>
     <state x="555" y="189" width="804" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1577291020000" />
-    <state x="555" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.924@0.0.1920.924" timestamp="1585399276114" />
+    <state x="555" y="166" width="804" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.924@0.0.1920.924" timestamp="1585576741345" />
     <state x="1132" y="203" width="626" height="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584008886097">
       <screen x="0" y="0" width="1920" height="924" />
     </state>
@@ -165,10 +189,14 @@
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
     <state x="713" y="400" width="488" height="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1054@0.0.1920.1054" timestamp="1585480903686" />
-    <state x="532" y="60" width="850" height="802" key="CommitChangelistDialog2" timestamp="1585554776051">
+    <state x="532" y="60" width="850" height="802" key="CommitChangelistDialog2" timestamp="1585561652587">
       <screen x="0" y="0" width="1920" height="924" />
     </state>
-    <state x="532" y="60" width="850" height="802" key="CommitChangelistDialog2/0.0.1920.924@0.0.1920.924" timestamp="1585554776051" />
+    <state x="532" y="60" width="850" height="802" key="CommitChangelistDialog2/0.0.1920.924@0.0.1920.924" timestamp="1585561652587" />
+    <state x="98" y="99" width="1724" height="727" key="DiffContextDialog" timestamp="1585562927748">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="98" y="99" width="1724" height="727" key="DiffContextDialog/0.0.1920.924@0.0.1920.924" timestamp="1585562927748" />
     <state x="241" y="154" width="475" height="609" key="ExecutionTargetDialog" timestamp="1584010972386">
       <screen x="0" y="0" width="1920" height="924" />
     </state>
@@ -230,6 +258,10 @@
     </state>
     <state x="757" y="453" width="399" height="145" key="NewPhpFileDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1577284003763" />
     <state x="757" y="397" width="399" height="145" key="NewPhpFileDialog/0.0.1920.924@0.0.1920.924" timestamp="1584009147023" />
+    <state x="787" y="176" width="339" height="570" key="RollbackChangesDialog" timestamp="1585562942640">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="787" y="176" width="339" height="570" key="RollbackChangesDialog/0.0.1920.924@0.0.1920.924" timestamp="1585562942640" />
     <state x="449" y="162" key="SettingsEditor" timestamp="1585479650842">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>

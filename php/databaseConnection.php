@@ -2,13 +2,14 @@
 
 function connectdb()
 {
-    $dbUsername = "admin";
-    $dbPassword = "Welkom#01!";
+    $dbUsername = "student";
+    $dbPassword = "student";
     $dbHostname = "localhost";
     $dbName = "bruidswebsite";
 
     // Create connection
     $conn = new mysqli($dbHostname, $dbUsername, $dbPassword, $dbName);
+
 
 //    // Check connection
 //    if ($conn->connect_error) {
