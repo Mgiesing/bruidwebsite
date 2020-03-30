@@ -1,8 +1,12 @@
 <?php
+//Start user data storage session
+session_start();
+//Clear any old errors
+if (isset($_SESSION['error'])) unset($_SESSION['error']);
+
 //Require login listener
 require_once('php/registerListener.php');
 
-session_start();
 //Can't go to login page when logged in.
 if (isset($_SESSION['username'])) {
     header("Location: index.php");
@@ -39,7 +43,9 @@ if (isset($_SESSION['username'])) {
             <li class="nav-item">
                 <a class="nav-link" href="mywenslijst.php">MyWenslijst</a>
             </li>
-        </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="php/logoutListener.php">Logout</a>
+            </li>        </ul>
     </div>
 </nav>
 <br> <br>
@@ -56,11 +62,6 @@ if (isset($_SESSION['username'])) {
                 <input type="password" name="password" placeholder="Wachtwoord">
                 <input type="password" name="passwordVerify" placeholder="Herhaal Wachtwoord"> <br><br>
                 <input  type="submit" value="Register" name="registerFormSubmit">
-                <?php
-                    function sendError($error) {
-                        echo '<div class="alert alert-primary" role="alert">' . $error . '</div>';
-                    }
-                ?>
             </form>
             <div id="formFooter">
                 <a class="underlineHover" href="#">Forgot Password?</a>
@@ -68,7 +69,14 @@ if (isset($_SESSION['username'])) {
             <div class= "col-lg-4 col-md-4 col-sm-4">
 
             </div>
+            <?php
+                //If there is a error, display it to the user.
+                if (isset($_SESSION['error'])) {
+                    echo '<br><div class="alert alert-primary" role="alert">' . $_SESSION['error'] . '</div>';
+                };
+            ?>
         </div>
+        
     </div>
 </body>
 </html>

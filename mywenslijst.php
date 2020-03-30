@@ -1,5 +1,8 @@
 <?php
+//Start user data storage session
 session_start();
+//Clear any old errors
+if (isset($_SESSION['error'])) unset($_SESSION['error']);
 
 require_once('php/additemListener.php');
 
@@ -40,6 +43,9 @@ $listgroupId = $_SESSION['groupid'];
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="mywenslijst.php">MyWenslijst</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="php/logoutListener.php">Logout</a>
             </li>
         </ul>
     </div>
@@ -86,6 +92,13 @@ $listgroupId = $_SESSION['groupid'];
                 <input  type="text" name="itemName" placeholder="wcpapier">
                 <input type="submit" name="submitItem" value="Add Item">
             </form>
+
+            <?php
+                //If there is a error, display it to the user.
+                if (isset($_SESSION['error'])) {
+                    echo '<br><div class="alert alert-primary" role="alert">' . $_SESSION['error'] . '</div>';
+                };
+            ?>
             <br>
 
             <ul id= "Wenslijst" class="list-group list-group-flush">

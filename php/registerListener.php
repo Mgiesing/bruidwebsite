@@ -9,7 +9,7 @@ if (isset($_POST['registerFormSubmit'])) {
     $passwordVerify = $_POST['passwordVerify'];
 
     //Check if user exists
-    $check = userExists($username);
+    $error = userExists($username);
 
     if (isset($check) && count($check) > 1) {
         echo "Deze gebruiker bestaat al.";
@@ -27,7 +27,8 @@ function createUser($username, $password, $passwordVerify)
     else if (strlen($password) < 1) $error = "Ongeldig wachtwoord";
     else if ($password != $passwordVerify) $error = "Wachtwoorden zijn niet het zelfde.";
 
-    if (isset($error)) sendError($error);
+    //If there was a error, set it in the session so it can be displayed to the user.
+    if (isset($error)) $_SESSION['error'] = $error;
     else {
         //Hash user password
         $hash = password_hash($password, PASSWORD_DEFAULT);
@@ -39,7 +40,10 @@ function createUser($username, $password, $passwordVerify)
         $stmt = $conn->prepare("INSERT INTO users (username, password, groupid) VALUES (?, ?, ?)");
         $stmt->bind_param("sss", $username, $hash, $groupid);
         $stmt->execute();
-        
+
+        $_SESSION['error'] = "Account aangemaakt!";
+
+
         $stmt->close();
         $conn->close();
     }

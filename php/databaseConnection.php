@@ -2,8 +2,8 @@
 
 function connectdb()
 {
-    $dbUsername = "student";
-    $dbPassword = "student";
+    $dbUsername = "admin";
+    $dbPassword = "Welkom#01!";
     $dbHostname = "localhost";
     $dbName = "bruidswebsite";
 

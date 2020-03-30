@@ -14,7 +14,7 @@ if(isset($_POST['loginFormSubmit'])) {
     if (isset($check) && count($check) > 1) {
         userLogin($username, $password);
     } else {
-        echo "User does not exist";
+        $_SESSION['error'] = 'Gebruikersnaam of wachtwoord onjuist';
     }
 
 }
@@ -50,20 +50,19 @@ function userLogin ($username, $password) {
     $user = $result->fetch_assoc(); // fetch data
 
     if (password_verify($password, $user['password'])) {
-        echo 'Password is valid!';
         session_start();
         $_SESSION['username'] = $user['username'];
         $_SESSION['groupid'] = $user['groupid'];
 
     } else {
-        echo 'Invalid password.';
+        $_SESSION['error'] = 'Gebruikersnaam of wachtwoord onjuist';
     }
+
+    $_SESSION['error'] = 'Login successvol.';
 
     $stmt->close();
     $conn->close();
 
 }
-
-
 
 ?>

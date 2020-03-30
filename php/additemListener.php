@@ -14,7 +14,7 @@ if(isset($_POST['submitItem'])) {
     $stmt->bind_param("ss", $itemName, $groupid);
     $stmt->execute();
 
-    echo "New records created successfully";
+    $_SESSION['error'] = "Item toegevoegd!";
 
     $stmt->close();
     $conn->close();
