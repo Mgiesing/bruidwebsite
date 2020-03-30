@@ -10,9 +10,6 @@ if (!isset($_SESSION['username'])) {
     header("Location: index.php");
     die("401 Unauthorized access.");
 }
-
-$listgroupId = $_SESSION['groupid'];
-
 ?>
 
 <!DOCTYPE html>

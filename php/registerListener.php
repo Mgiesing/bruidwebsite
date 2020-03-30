@@ -9,10 +9,10 @@ if (isset($_POST['registerFormSubmit'])) {
     $passwordVerify = $_POST['passwordVerify'];
 
     //Check if user exists
-    $error = userExists($username);
+    $check = userExists($username);
 
     if (isset($check) && count($check) > 1) {
-        echo "Deze gebruiker bestaat al.";
+        $_SESSION['error'] = "Deze gebruiker bestaat al.";
     } else {
         createUser($username, $password, $passwordVerify);
     }
