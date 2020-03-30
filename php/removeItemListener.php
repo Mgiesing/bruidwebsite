@@ -3,7 +3,7 @@
 session_start();
 require_once("databaseConnection.php");
 
-//
+//If username is not in session (logged out) redirect to mywenslijst
 if (!isset($_SESSION['username'])) {
     header("Location: ../mywenslijst.php");
 }
