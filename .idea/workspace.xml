@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa183c06-37f8-44a3-910f-9cd1080577c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mariadb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mariadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mariadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bruidswebsite: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mariadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bruidswebsite: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="users: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mariadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bruidswebsite: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="wenslijst: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="41911ae1-67da-49c0-add1-2ca93cb89116" />
+    </checked>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="student.local" id="de22413d-ea0d-4cd4-8788-989a56e26b9c" name="student.local" />
+    </servers>
+  </component>
+  <component name="ProjectId" id="1VTjUSgKJT6Ho1s3sqymhJWIpY9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa183c06-37f8-44a3-910f-9cd1080577c4" name="Default Changelist" comment="" />
+      <created>1577283994205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577283994205</updated>
+      <workItem from="1577283995998" duration="66000" />
+      <workItem from="1577290966565" duration="52000" />
+      <workItem from="1577292321658" duration="47000" />
+      <workItem from="1580730988069" duration="24000" />
+      <workItem from="1581070172630" duration="48000" />
+      <workItem from="1584008438423" duration="1833000" />
+      <workItem from="1584010302179" duration="409000" />
+      <workItem from="1584010739342" duration="1063000" />
+      <workItem from="1585398225443" duration="2189000" />
+      <workItem from="1585401282598" duration="880000" />
+      <workItem from="1585480102464" duration="11731000" />
+      <workItem from="1585488293100" duration="3000" />
+      <workItem from="1585488361684" duration="12000" />
+      <workItem from="1585553757074" duration="94000" />
+      <workItem from="1585554582035" duration="690000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fixed mywenslijst link">
+      <created>1585554776439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585554776439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed mywenslijst link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed mywenslijst link" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="189" width="804" height="674" key="#SQL_Dialects" timestamp="1585482627375">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="555" y="189" width="804" height="674" key="#SQL_Dialects/0.0.1920.1054@0.0.1920.1054" timestamp="1585482627375" />
+    <state x="555" y="166" width="804" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585399276114">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="555" y="189" width="804" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1577291020000" />
+    <state x="555" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.924@0.0.1920.924" timestamp="1585399276114" />
+    <state x="1132" y="203" width="626" height="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584008886097">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="1132" y="203" width="626" height="386" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.924@0.0.1920.924" timestamp="1584008886097" />
+    <state x="713" y="400" width="488" height="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585480903686">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="713" y="400" width="488" height="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1054@0.0.1920.1054" timestamp="1585480903686" />
+    <state x="532" y="60" width="850" height="802" key="CommitChangelistDialog2" timestamp="1585554776051">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="532" y="60" width="850" height="802" key="CommitChangelistDialog2/0.0.1920.924@0.0.1920.924" timestamp="1585554776051" />
+    <state x="241" y="154" width="475" height="609" key="ExecutionTargetDialog" timestamp="1584010972386">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="241" y="154" width="475" height="609" key="ExecutionTargetDialog/0.0.1920.924@0.0.1920.924" timestamp="1584010972386" />
+    <state x="743" y="220" width="428" height="481" key="FileChooserDialogImpl" timestamp="1585400618058">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="743" y="220" width="428" height="481" key="FileChooserDialogImpl/0.0.1920.924@0.0.1920.924" timestamp="1585400618058" />
+    <state width="1878" height="347" key="GridCell.Tab.0.bottom" timestamp="1577292368405">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368405" />
+    <state width="1878" height="347" key="GridCell.Tab.0.center" timestamp="1577292368404">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.0.center/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368404" />
+    <state width="1878" height="347" key="GridCell.Tab.0.left" timestamp="1577292368404">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.0.left/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368404" />
+    <state width="1878" height="347" key="GridCell.Tab.0.right" timestamp="1577292368404">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.0.right/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368404" />
+    <state width="1878" height="347" key="GridCell.Tab.1.bottom" timestamp="1577292368406">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368406" />
+    <state width="1878" height="347" key="GridCell.Tab.1.center" timestamp="1577292368406">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.center/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368406" />
+    <state width="1878" height="347" key="GridCell.Tab.1.left" timestamp="1577292368405">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.left/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368405" />
+    <state width="1878" height="347" key="GridCell.Tab.1.right" timestamp="1577292368406">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.right/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368406" />
+    <state width="1878" height="347" key="GridCell.Tab.2.bottom" timestamp="1577292368408">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.2.bottom/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368408" />
+    <state width="1878" height="347" key="GridCell.Tab.2.center" timestamp="1577292368407">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.2.center/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368407" />
+    <state width="1878" height="347" key="GridCell.Tab.2.left" timestamp="1577292368407">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.2.left/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368407" />
+    <state width="1878" height="347" key="GridCell.Tab.2.right" timestamp="1577292368407">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.2.right/0.0.1920.1054@0.0.1920.1054" timestamp="1577292368407" />
+    <state x="757" y="397" width="399" height="145" key="NewPhpFileDialog" timestamp="1584009147023">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="757" y="453" width="399" height="145" key="NewPhpFileDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1577284003763" />
+    <state x="757" y="397" width="399" height="145" key="NewPhpFileDialog/0.0.1920.924@0.0.1920.924" timestamp="1584009147023" />
+    <state x="449" y="162" key="SettingsEditor" timestamp="1585479650842">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="449" y="162" key="SettingsEditor/0.0.1920.1054@0.0.1920.1054" timestamp="1585479650842" />
+    <state x="555" y="198" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1585561179116">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="555" y="198" width="804" height="525" key="Vcs.Push.Dialog.v2/0.0.1920.924@0.0.1920.924" timestamp="1585561179116" />
+    <state x="862" y="425" width="363" height="226" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1577291075653">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="862" y="425" width="363" height="226" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1054@0.0.1920.1054" timestamp="1577291075653" />
+    <state x="835" y="425" width="344" height="202" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1585487374910">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="835" y="425" width="344" height="202" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1585487374910" />
+    <state x="679" y="170" width="556" height="712" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585483850724">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="679" y="170" width="556" height="712" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1585483850724" />
+    <state x="813" y="293" width="287" height="465" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1585482967516">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="813" y="293" width="287" height="465" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1585482967516" />
+    <state x="98" y="99" width="1724" height="727" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585554975600">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="98" y="99" width="1724" height="727" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.924@0.0.1920.924" timestamp="1585554975600" />
+    <state x="626" y="311" key="com.intellij.ide.util.TipDialog" timestamp="1584010746324">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="626" y="355" key="com.intellij.ide.util.TipDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1581070174256" />
+    <state x="626" y="311" key="com.intellij.ide.util.TipDialog/0.0.1920.924@0.0.1920.924" timestamp="1584010746324" />
+    <state x="1145" y="21" width="741" height="621" key="dock-window-1" timestamp="1585399444324">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="1145" y="21" width="741" height="621" key="dock-window-1/0.0.1920.924@0.0.1920.924" timestamp="1585399444324" />
+    <state x="616" y="65" width="688" height="795" key="find.popup" timestamp="1585554642171">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="616" y="65" width="688" height="795" key="find.popup/0.0.1920.924@0.0.1920.924" timestamp="1585554642171" />
+    <state x="773" y="365" width="368" height="191" key="git4idea.ui.GitStashDialog" timestamp="1585555121042">
+      <screen x="0" y="0" width="1920" height="924" />
+    </state>
+    <state x="773" y="365" width="368" height="191" key="git4idea.ui.GitStashDialog/0.0.1920.924@0.0.1920.924" timestamp="1585555121042" />
+  </component>
+</project>
