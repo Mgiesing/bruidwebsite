@@ -52,28 +52,6 @@ $listgroupId = $_SESSION['groupid'];
 </nav>
 <br> <br>
 
-
-<!--  script voor de remove button, add button en het slepen van de items -->
-<!-- <script>$(document).ready(function () {
-
-        $(".btnAddItem").click(function (e) {
-            e.preventDefault();
-            $("#Wenslijst").prepend("<li class='list-group-item'><input type='text' placeholder='Gift naam'> <br> <button class='btnDelete btn-danger'>delete</button></li>");
-
-        });
-        $("#Wenslijst").on("click", ".btnDelete", function () {
-            $(this).parent().remove();
-            $("#Wenslijst").sortable();
-
-
-
-        });
-
-        $("#Wenslijst").sortable();
-    });
-
-</script> -->
-
 <!-- Wenslijst -->
 <div class="container">
     <div class="row">
@@ -84,7 +62,8 @@ $listgroupId = $_SESSION['groupid'];
             <br>
 
             <div class="alert alert-info" role="alert">
-                Jouw link = <input type="text" readonly value="<?php echo 'http://student.local/wenslijst.php?groupId=' . $_SESSION['groupid']; ?>">
+                Jouw link = <input style="width: 80%;" type="text" readonly value="<?php echo 'http://happybrides.student.local/wenslijst.php?groupId=' . $_SESSION['groupid']; ?>"><br>
+                Of klik <a href="wenslijst.php?groupId=<?php echo $_SESSION['groupid']?>">hier</a>
             </div>
 
             <!-- De List van items -->
