@@ -36,7 +36,7 @@
 <div class="container">
     <div class="row">
         <div class="jumbotron col-lg 12 col-md 6 col-sm 3">
-            <img src="trouwfoto.png" class="rounded-circle mx-auto d-block col-lg 12 col-md 6 col-sm 3"
+            <img src="assets/trouwfoto.png" class="rounded-circle mx-auto d-block col-lg 12 col-md 6 col-sm 3"
                  alt="Bruids foto">
         </div>
     </div>

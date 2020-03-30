@@ -53,8 +53,9 @@ if (isset($_SESSION['username'])) {
         <div class="jumbotron col-lg-4 col-md-4 col-sm-4 text-center">
             <form method="post" id="registerform">
                 <input type="text" name="username" placeholder="Inlognaam">
-                <input type="text" name="password" placeholder="Wachtwoord"> <br><br>
-                <input  type="submit" value="register" name="registerFormSubmit">
+                <input type="password" name="password" placeholder="Wachtwoord">
+                <input type="password" name="passwordVerify" placeholder="Herhaal Wachtwoord"> <br><br>
+                <input  type="submit" value="Register" name="registerFormSubmit">
                 <?php
                     function sendError($error) {
                         echo '<div class="alert alert-primary" role="alert">' . $error . '</div>';

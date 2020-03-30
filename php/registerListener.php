@@ -6,6 +6,7 @@ if (isset($_POST['registerFormSubmit'])) {
     //Get username/password from form
     $username = $_POST['username'];
     $password = $_POST['password'];
+    $passwordVerify = $_POST['passwordVerify'];
 
     //Check if user exists
     $check = userExists($username);
@@ -13,18 +14,18 @@ if (isset($_POST['registerFormSubmit'])) {
     if (isset($check) && count($check) > 1) {
         echo "Deze gebruiker bestaat al.";
     } else {
-        createUser($username, $password);
+        createUser($username, $password, $passwordVerify);
     }
 
 }
 
 
-function createUser($username, $password)
+function createUser($username, $password, $passwordVerify)
 {
-    if (!isset($username)) $error = "Invalid Username";
-    else if (!isset($password)) $error = "Invalid Password";
-    else if (strlen($username) < 1) $error = "Invalid Username";
-    else if (strlen($password) < 1) $error = "Invalid Password";
+    if (strlen($username) < 1) $error = "Ongeldige gebruikersnaam";
+    else if (strlen($password) < 1) $error = "Ongeldig wachtwoord";
+    else if (strlen($password) < 1) $error = "Ongeldig wachtwoord";
+    else if ($password != $passwordVerify) $error = "Wachtwoorden zijn niet het zelfde.";
 
     if (isset($error)) sendError($error);
     else {
@@ -38,9 +39,7 @@ function createUser($username, $password)
         $stmt = $conn->prepare("INSERT INTO users (username, password, groupid) VALUES (?, ?, ?)");
         $stmt->bind_param("sss", $username, $hash, $groupid);
         $stmt->execute();
-
-        echo "User created";
-
+        
         $stmt->close();
         $conn->close();
     }

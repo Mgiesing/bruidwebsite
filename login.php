@@ -19,7 +19,7 @@ if (isset($_SESSION['username'])) {
     <title>Happy Brides | Login</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> </link>
     <script src= https://code.jquery.com/jquery-3.4.1.min.js> </script>
-    <script src="/jquery-ui-1.12.1/jquery-ui.js" > </script>
+    <script src="/jquery-ui-1.12.1/jquery-ui.js" ></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -53,7 +53,7 @@ if (isset($_SESSION['username'])) {
         <div class="jumbotron col-lg-4 col-md-4 col-sm-4 text-center">
             <form method="post" id="loginform">
                 <input type="text" name="username" placeholder="Inlognaam">
-                <input type="text" name="password" placeholder="Wachtwoord"> <br><br>
+                <input type="password" name="password" placeholder="Wachtwoord"> <br><br>
                 <input  type="submit" value="Login" name="loginFormSubmit">
             </form>
             <div id="formFooter">
