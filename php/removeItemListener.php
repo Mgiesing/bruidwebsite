@@ -1,5 +1,5 @@
 <?php
-//To start/resume session so we can store and use data from the previous session.
+//Start storing user data
 session_start();
 require_once("databaseConnection.php");
 
