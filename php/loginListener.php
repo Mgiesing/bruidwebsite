@@ -53,12 +53,11 @@ function userLogin ($username, $password) {
         session_start();
         $_SESSION['username'] = $user['username'];
         $_SESSION['groupid'] = $user['groupid'];
-
+        $_SESSION['error'] = 'Login successvol.';
     } else {
         $_SESSION['error'] = 'Gebruikersnaam of wachtwoord onjuist';
     }
 
-    $_SESSION['error'] = 'Login successvol.';
 
     $stmt->close();
     $conn->close();

@@ -27,27 +27,31 @@ if (isset($_SESSION['username'])) {
 </head>
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- Dynamic buttons -->
+                <?php
+                if (!isset($_SESSION['username'])) {
+                    echo '<li class="nav-item"><a class="nav-link" href="login.php">Inloggen</a></li>';
+                    echo '<li class="nav-item active"><a class="nav-link" href="register.php">Registreer</a></li>';
+                }
 
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="login.php">Inloggen</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="register.php">Registreer</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="mywenslijst.php">MyWenslijst</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="php/logoutListener.php">Logout</a>
-            </li>        </ul>
-    </div>
-</nav>
+                if (isset($_SESSION['username'])) {
+                    echo '<li class="nav-item"><a class="nav-link" href="mywenslijst.php">MyWenslijst</a></li>';
+                }
+                ?>
+            </ul>
+            <?php
+            if (isset($_SESSION['username'])) {
+                echo '<a style="color: white;" class="nav-link" href="php/logoutListener.php">Logout</a>';
+            }
+            ?>
+
+        </div>
+    </nav>
 <br> <br>
 <!-- Inlog scherm -->
 
