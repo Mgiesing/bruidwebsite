@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa183c06-37f8-44a3-910f-9cd1080577c4" name="Default Changelist" comment="Fixed mywenslijst link">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mywenslijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/mywenslijst.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/additemListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/additemListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/databaseConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/databaseConnection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wenslijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/wenslijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +125,7 @@
       <workItem from="1585561108308" duration="1406000" />
       <workItem from="1585562829964" duration="129000" />
       <workItem from="1585576721916" duration="3405000" />
-      <workItem from="1585675110178" duration="625000" />
+      <workItem from="1585675110178" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed mywenslijst link">
       <created>1585554776439</created>
