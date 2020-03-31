@@ -1,4 +1,5 @@
 <?php
+//Get the group id so we display the correct list
 if (isset($_GET['groupId'])) $listgroupId = $_GET['groupId'];
 ?>
 

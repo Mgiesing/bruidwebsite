@@ -1,5 +1,5 @@
 <?php
-
+//function to connect to database (easier use)
 function connectdb()
 {
     $dbUsername = "student";

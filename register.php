@@ -53,7 +53,7 @@ if (isset($_SESSION['username'])) {
         </div>
     </nav>
 <br> <br>
-<!-- Inlog scherm -->
+<!-- Login Screen -->
 
 <div class="container">
     <div class="row">

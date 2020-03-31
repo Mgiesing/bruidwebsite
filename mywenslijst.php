@@ -68,7 +68,7 @@ if (!isset($_SESSION['username'])) {
                     Of klik <a href="wenslijst.php?groupId=<?php echo $_SESSION['groupid'] ?>">hier</a>
                 </div>
 
-                <!-- De List van items -->
+                <!-- item list -->
                 <form method="post">
                     <input type="text" name="itemName" placeholder="wcpapier">
                     <input type="submit" name="submitItem" value="Add Item">
