@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa183c06-37f8-44a3-910f-9cd1080577c4" name="Default Changelist" comment="Fixed mywenslijst link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mywenslijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/mywenslijst.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="bruidswebsite: schema" type="ebfa3cd1:MariaImplModel$Schema" />
         <item name="users: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bruidswebsite: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="wenslijst: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -127,6 +135,8 @@
       <workItem from="1585576721916" duration="3405000" />
       <workItem from="1585675110178" duration="798000" />
       <workItem from="1585727717156" duration="139000" />
+      <workItem from="1585738362003" duration="1620000" />
+      <workItem from="1585742265966" duration="231000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed mywenslijst link">
       <created>1585554776439</created>

@@ -70,7 +70,7 @@ if (!isset($_SESSION['username'])) {
 
                 <!-- item list -->
                 <form method="post">
-                    <input type="text" name="itemName" placeholder="wcpapier">
+                    <input type="text" name="itemName" placeholder="taart">
                     <input type="submit" name="submitItem" value="Add Item">
                 </form>
 
